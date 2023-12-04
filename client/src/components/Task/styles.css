@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans');
+
+
+
+.header{
+    text-align: center;
+}
+
+.shiftMain{
+  height: 100vh;
+    display: flex;
+   
+background: var(--light-mode-gray-10-f-5-f-5-f-5, #F5F5F5);
+
+    
+}
+.shiftHeaderMain{
+    position: relative;
+    display: flex;
+width: 973px;
+height: 120px;
+margin: 17px 0 0 18px;
+align-items: center;
+border-radius: 7px;
+background: var(--light-mode-gradient-yellow-red, linear-gradient(90deg, #FFD370 1.31%, #E16F7C 96.66%));
+}
+
+.shiftHeaderDiv1{
+ 
+    width: 164px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shiftHeaderDiv1 img{
+   
+    width: 42px;
+    height: 42px;
+}
+
+.shiftHeaderDiv1 p{
+    margin: 0;
+    color: var(--light-mode-gray-80424242, #424242);
+
+
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%; 
+}
+
+.shiftHeaderDiv2{
+   
+    padding-left: 22px;
+    width: 305px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.shiftHeaderDiv2 p{
+    margin: 0;
+    color: var(--light-mode-gray-80424242, #424242);
+
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 130%; 
+}
+
+.shiftHeaderDiv2 h3{
+    margin: 0;
+    color: var(--light-mode-gray-80424242, #424242);
+
+
+font-family: DM Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; 
+letter-spacing: -0.64px;
+}
+
+.shiftHeaderDiv3{
+    display: flex;
+    width: 160px;
+    height: 27px;
+    border-radius: 4px;
+    background: #73877B;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shiftHeaderDiv3 p{
+    color: var(--light-mode-gray-20-eeeeee, #EEE);
+
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; 
+}
+
+.shiftLogo{
+    position: absolute;
+    top: -50px;
+    left: 540px;
+    width: 135px;
+    height: 130px;
+}
+
+.shiftHeaderDiv4{
+    margin-left: 100px;
+    width: 170px;
+
+}
+
+.shiftHeaderDiv4 p{
+    margin: 0;
+    color: var(--light-mode-green-10-d-9-f-0-c-5, #D9F0C5);
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+}
+
+.shiftHeaderDiv4 h3{
+    margin: 0;
+    color: var(--light-mode-green-10-d-9-f-0-c-5, #D9F0C5);
+   font-family: DM Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; 
+letter-spacing: -0.64px;
+}
+
+.shiftTableMain{
+  margin-left: 18px;
+  box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 973px;
+  height: 90px;
+  margin: 15px 0 0 18px;
+  border-radius: 10px 10px 0px 0px;
+background: var(--light-mode-white-5-ffffff, #FFF);
+}
+
+.shiftTableHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 940px;
+   
+
+ 
+
+
+}
+
+.shiftTableHead4{
+    display: flex;
+   margin-left: 70px;
+   
+}
+
+.shiftTableHead h3{
+   
+    margin-block: 0;
+    margin-right: 30px;
+    width: 200px;
+    height: 22px;
+    color: var(--light-mode-gray-60757575, #757575);
+
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; 
+text-transform: uppercase;
+}
+
+.shiftTableDesc{
+    margin-left: 20px;
+    margin-right: 80px;
+    padding-right: 40px;
+}
+
+
+.shiftTableRow{
+    display: flex;
+    width: 973px;
+    height: 54px;
+    margin-left: 18px;
+   
+     
+}
+
+.shiftTableRow:nth-child(odd) {
+    background: var(--light-mode-gray-5-fafafa, #FAFAFA);
+}
+
+.shiftTableDate{
+    width: 190px;
+    color: var(--light-mode-gray-80424242, #424242);
+
+padding-left: 24px;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+letter-spacing: 0.21px;
+}
+
+.shiftTableStartTime{
+
+    width: 210px;
+    color: var(--light-mode-gray-80424242, #424242);
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+letter-spacing: 0.21px;
+}
+
+
+.dueDate{
+    padding-right: 40px;
+}
+
+.assignee{
+    padding-left: 80px;
+}
+.shiftTableEndTime{
+   
+    width: 100px;
+    
+    color: var(--light-mode-gray-80424242, #424242);
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+letter-spacing: 0.21px; 
+}
+
+.shiftTableEndTime p{
+    padding: 4px;
+    border-radius: 4px;
+    background: var(--light-mode-blue-5-e-3-f-2-fd, #E3F2FD);
+    color: var(--light-mode-blue-502196-f-3, #2196F3);
+}
+
+
+.shiftTableDiff{
+    width: 100px;
+    
+    color: var(--light-mode-gray-80424242, #424242);
+    margin-left: 50px;
+    margin-right: 30px;
+    
+
+
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+letter-spacing: 0.21px; 
+}
+
+.shiftTableDiff p {
+    padding: 4px;
+    border-radius: 4px;
+    background: var(--light-mode-orange-5-fff-3-de, #FFF3DE);
+    color: var(--light-mode-orange-50-ff-9600, #FF9600);
+}
+
+
+.shiftTableRemoveButton{
+    padding-left: 30px;
+}
+
+.shiftTableFooter{
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
+    align-items: flex-end;
+    width: 973px;
+    height: 80px;
+    border-radius: 0px 0px 10px 10px;
+background: var(--light-mode-white-5-ffffff, #FFF);
+}
+
+.shiftTableFooter button{
+    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;   
+   
+
+    width: 110px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: #2196F3;
+   color: #FFF;
+   border-style: none;
+   border-radius: 20px;
+   font-size: 22px;
+
+   font-family: DM Sans;
+
+font-style: normal;
+font-weight: 500;
+line-height: 130%; 
+box-shadow: 0px 20px 24px 0px rgba(33, 150, 243, 0.06);
+}
+
+.shiftTableFooter button span{
+    margin-top: -5px;
+    font-size: 40px;
+}
+
